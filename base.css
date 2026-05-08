@@ -1,0 +1,31 @@
+/* My navigation banner starts*/ 
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #feffff;
+}
+
+.topnav a {
+  float: right;
+  color: #070000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #e7e6e4;
+  color: rgb(124, 40, 40);
+}
+
+.topnav a.active {
+  background-color: #feffff;
+  color: rgb(17, 1, 1);
+}
+/* My navigation banner ends*/ 

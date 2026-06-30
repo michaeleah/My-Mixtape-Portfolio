@@ -185,6 +185,45 @@ body {
  min-height: 100vh;
 /* CARD */
 }
+.my-github {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #333;
+}
+
+.my-github h2 {
+    margin-bottom: 25px;
+    font-size: 2rem;
+    color: #f7f3f3;
+}
+.my-github p{
+  margin-bottom: 25px;
+  font-size: 1rem;
+  color: white;
+}
+
+.github-btn {
+    display: inline-block;
+    padding: 14px 32px;
+    background: linear-gradient(135deg, #8e44ad, #6c5ce7);
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 50px;
+    box-shadow: 0 8px 20px rgba(108, 92, 231, 0.3);
+    transition: all 0.3s ease;
+}
+
+.github-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 25px rgba(108, 92, 231, 0.4);
+    background: linear-gradient(135deg, #9b59b6, #7d6df0);
+}
+
+.github-btn:active {
+    transform: translateY(0);
+}
+
 .mixtape-card{
     display:flex;
     align-items:flex-start;
